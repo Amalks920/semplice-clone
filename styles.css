@@ -1,0 +1,104 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blue;
+    
+    
+    
+}
+
+header{
+    position: absolute;
+    background-color: rgb(255,211,0);
+    width: 95vw;
+    height: 150vh;
+    margin-left: 2rem;
+    
+    
+}
+
+h1{
+    position: relative;
+    font-family: 'Maison Neue', sans-serif;
+    font-size: 180px;
+    font-weight: 400;
+    margin-bottom: 100px;
+    margin-top: 300px;
+    letter-spacing: -5px;
+    margin-left: 50px;
+    line-height: 150px;
+}
+
+.paragraph{
+    display: flex;
+    flex-direction: row;
+    font-size: 23.99px;
+    font-family: 'Abel', sans-serif;
+    line-height: 2.1rem;
+    
+    
+}
+
+.paragraph div{
+    margin-right: 30px;
+}
+
+.btn-1{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    font-size: large;
+    
+}
+
+article{
+    margin:0 50px;
+    
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    
+    height: 9%;
+    background-color: white;
+    left:3%;
+    right:3%;
+    top: 5%;
+    border: 1px solid greenyellow;
+    border-radius: 4px;
+    
+    
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-list li{
+    margin: 1rem;
+}
+
+.nav-elements{
+    width: 33%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.nav-elements button{
+    background-color: rgb(229,73,39);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    
+}
+
