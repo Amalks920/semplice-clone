@@ -4,29 +4,29 @@
     padding: 0;
 }
 body{
-    background-color: blue;
-    
+    background-color: ghostwhite;
+    overflow-x: hidden;
     
     
 }
 
 header{
-    position: absolute;
+    position: static;
     background-color: rgb(255,211,0);
     width: 95vw;
-    height: 150vh;
-    margin-left: 2rem;
-    
+    padding-bottom: 70px;
+    margin-left: 2.5rem;
+    padding-top: 300px;
     
 }
 
 h1{
-    position: relative;
+    position: static;
     font-family: 'Maison Neue', sans-serif;
     font-size: 180px;
     font-weight: 400;
     margin-bottom: 100px;
-    margin-top: 300px;
+  
     letter-spacing: -5px;
     margin-left: 50px;
     line-height: 150px;
@@ -67,7 +67,7 @@ article{
     
     height: 9%;
     background-color: white;
-    left:3%;
+    left:4.3%;
     right:3%;
     top: 5%;
     border: 1px solid greenyellow;
@@ -101,4 +101,72 @@ article{
     border-radius: 5px;
     
 }
+
+
+.second-section{
+    width: 95vw;
+    height: 100vh;
+    background-image:url("https://www.semplice.com/wp-content/uploads/2022/04/The-Editor-BG.jpg");
+    margin-left: 2.5rem;
+    margin-right: 2.6rem;
+}
+
+
+.second-section p{
+    color: rgb(104,140,107);
+    
+    padding: 50px;
+    font-size: large;
+}
+
+.second-section div{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    border: 1px solid purple;
+   
+    
+
+}
+
+.second-section div p{
+    width: 40%;
+}
+.second-section div div{
+    
+    width: 60%;
+    padding-top: 50px;
+    justify-content: center;
+    
+}
+
+.second-section div div div{
+    height: 3px;
+    width: 100%;
+    margin-bottom: 66px;
+}
+
+/*third section*/
+.third-section{
+    margin-left: 2.5rem;
+    margin-right: 2.6rem;
+    width:95vw;
+    height: 100vh;
+    border: 1px solid red;
+    background-image: url("https://www.semplice.com/wp-content/uploads/2022/04/Edtior-Interface-Updated.jpg");
+    background-size: 95vw;
+}
+
+/*fourth section */
+
+.fourth-section{
+    min-height: 100vw;
+    background-color: rgb(255,211,0); ;
+}
+
+/*common proporties for all sections */
+
+.first-section,.second-section,
+.third-section,.fourth-section
+
 
