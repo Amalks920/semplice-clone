@@ -1,11 +1,9 @@
-*{
-    
-    margin: 0;
-    padding: 0;
-}
+
 body{
     background-color: ghostwhite;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
     
     
 }
@@ -15,7 +13,7 @@ header{
     background-color: rgb(255,211,0);
     width: 95vw;
     padding-bottom: 70px;
-    margin-left: 2.5rem;
+    margin-left: 2.3rem;
     padding-top: 300px;
     
 }
@@ -47,11 +45,24 @@ h1{
 }
 
 .btn-1{
+   
+    display: flex;
     width: 300px;
-    height: 50px;
+    height: 60px;
     border: none;
     border-radius: 25px;
     font-size: large;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-1 > div{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-left: -90px;
+    background-color: rgb(255,211,0);
     
 }
 
@@ -107,8 +118,11 @@ article{
     width: 95vw;
     height: 100vh;
     background-image:url("https://www.semplice.com/wp-content/uploads/2022/04/The-Editor-BG.jpg");
-    margin-left: 2.5rem;
-    margin-right: 2.6rem;
+    background-size: 95vw;
+    
+    border: 1px solid red;
+    margin-right: 2.3rem;
+   
 }
 
 
@@ -123,7 +137,7 @@ article{
     display: flex;
     flex-direction: row;
     width: 90%;
-    border: 1px solid purple;
+    
    
     
 
@@ -140,19 +154,20 @@ article{
     
 }
 
+/********second-section*****/
+
 .second-section div div div{
     height: 3px;
     width: 100%;
     margin-bottom: 66px;
 }
 
-/*third section*/
+/*******  third section  ******/
 .third-section{
     margin-left: 2.5rem;
     margin-right: 2.6rem;
     width:95vw;
     height: 100vh;
-    border: 1px solid red;
     background-image: url("https://www.semplice.com/wp-content/uploads/2022/04/Edtior-Interface-Updated.jpg");
     background-size: 95vw;
 }
@@ -161,12 +176,141 @@ article{
 
 .fourth-section{
     min-height: 100vw;
-    background-color: rgb(255,211,0); ;
+    background-color: rgb(255,211,0); 
+     
+    
 }
+
+.fourth-section .background-image{
+    display: flex;
+    padding-top: 500px;
+    width: 100vw;
+    background-image: url("https://www.semplice.com/wp-content/uploads/2023/01/Best2022BG.png");
+    background-size: 80vw;
+    background-repeat: no-repeat;
+    background-position: 20% 30%; 
+    
+}
+
+.fourth-section article{
+    width: 70%;
+}
+
+hr{
+    background-color: rgb(159, 134, 101);
+}
+
+/*h2 */
+h2{
+    font-family: 'Maison Neue', sans-serif;
+    font-size: 6rem;
+    margin-top: 30px;
+    
+}
+
+.fourth-section  article  span{
+    margin-top: 100px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+    /*subsection to create the portfolio */
+
+    .portfolio-img{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .portfolio-wrapper {
+        margin: 100px 40px 100px 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        grid-auto-rows: minmax(500px, auto);
+        
+        
+        
+      }
+      .one {
+        grid-column: 1 / 2;
+       
+        
+      }
+      .two {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        border-left:1px solid black;
+        
+      }
+      .three {
+        grid-column: 3/4;
+        
+        border-left:1px solid black;
+        
+      }
+      .four {
+        grid-column: 4/5;
+        border-left:1px solid black;
+        
+      }
+      .five {
+        grid-column: 1/2;
+        grid-row: 2;
+        border-left:1px solid black;
+        
+      }
+      .six {
+        grid-column: 2/3;
+        grid-row: 2;
+        border-left:1px solid black;
+        
+      }
+
+      .seven {
+        grid-column: 3/4;
+        grid-row: 2;
+        border-left:1px solid black;
+       
+      }
+      .eight {
+        grid-column: 4/5;
+        grid-row: 2;
+        border-left:1px solid black;
+        
+      }
+
+      .one,.two,.three,.four,.five,.six,.seven,.eight{
+        padding:0 20px;
+      }
+
+      /* portfolio image name and description  */
+
+      .portfolio-name{
+        font-size: xx-large;
+        font-weight: 550;
+        margin: 0;
+      }
+
+      .portfolio-description{
+        font-size: x-large;
+        font-family: 'Cormorant Garamond', serif;
+        margin: 10px;
+      }
+
+      
+
+
+
 
 /*common proporties for all sections */
 
-.first-section,.second-section,
-.third-section,.fourth-section
+.second-section,
+.third-section,.fourth-section{
+    width: 95vw;
+    margin-left: 2.5rem;
+    margin-right: 2.6rem;
+   
+}
 
 
