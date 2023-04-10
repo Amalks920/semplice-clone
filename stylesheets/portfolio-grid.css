@@ -1,0 +1,42 @@
+/* stylesheets for portfolio grid */
+
+
+.portfolio-grid{
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 100%;
+    min-width: 100%;
+    
+}
+
+.portfolio-grid >article{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio-grid > article > h3{
+    width: 60%;
+    padding-top: 3%;
+    color: rgb(226, 223, 223);
+    margin-bottom: 0;
+
+}
+
+.portfolio-grid > article > p{
+    width: 70%;
+    padding-left: 24%;
+    font-weight: 100;
+    font-size: xx-large;
+    color: rgb(193, 191, 191);
+}
+
+.portfolio-grid > article > button{
+    background-color: transparent;
+    border:1px solid white;
+    color: white;
+    width: 20%;
+    height: 6%;
+    
+}
+
