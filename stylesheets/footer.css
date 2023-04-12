@@ -1,0 +1,102 @@
+.footer svg{
+    padding-left: 50px;
+
+}
+
+.footer-first-sec{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.footer-sec-2{
+    display: flex; 
+}
+.footer-sec-2 div:nth-of-type(2){
+    display: flex;
+   flex-direction: column;
+   margin-top: 100px;
+   padding-left: 40px;
+   width: 350px;
+   
+}
+
+.footer-sec-2 div:nth-of-type(2) input{
+    height: 50px;
+}
+
+.footer-image{
+    margin-top: 500px;
+    background-size: 100%;
+    width: 50%;
+    height: 300px;
+    margin-left:40px ;
+    background-image: url("https://www.semplice.com/wp-content/uploads/2022/04/footer_temp.jpg");
+    margin-left: 100px;
+}
+
+.footer-button{
+    height: 70px;
+    background-color: black;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ .input-1{
+    margin-top: 410px;
+
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border:none;
+}
+.input-2{
+    border-left: none;
+    border-right: none;
+    
+}
+
+
+.footer-sec-2 > div > input{
+    background-color: rgb(232, 232, 232);
+    padding: 10px;
+   
+   
+}
+
+.footer-sec-2 > div > input,.footer-button{
+    margin-left: 50px;
+}
+
+.footer-last-section{
+    display: flex;
+}
+
+
+.footer-end{
+    display: flex;
+    border-top: 1px solid black;
+    width: 95vw;
+    min-height: 30px;
+    margin-top: 150px;
+   
+}
+
+.footer-end svg{
+    display: flex;
+   padding-left: 170px;
+}
+
+.footer-end-inside{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-end-image{
+    width: 40%;
+    padding: 20px;
+}

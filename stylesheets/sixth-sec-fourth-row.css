@@ -1,0 +1,77 @@
+.fourth-row{
+    padding-left: 60px;
+    margin-top: -900px;
+    
+    width: fit-content;
+}
+.fourth-row > p{
+  font-size: xx-large;
+}
+
+.fourth-row > h2{
+    margin-bottom: 0;
+    font-size: 5rem;
+    
+  }
+
+  .fourth-row .flex{
+    display: flex;
+    height: 70vh;
+ 
+  }
+
+  .fourth-row .flex img{
+    width: 300px; 
+    padding-top: 50px;
+    padding-right: 145px;
+    
+  }
+
+    
+  .fourth-row .flex .single,.fourth-row .flex .studio,.fourth-row .flex .business{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    
+  }
+
+
+  .fourth-row > .flex > .single > h3,.fourth-row >.flex > .single >p
+  {
+    margin-left: 170px;
+  }
+
+  .fourth-row > .flex > .studio > h3,.fourth-row >.flex > .studio >p{
+   margin-left:150px;
+  }
+
+  .fourth-row > .flex > .business > h3,.fourth-row >.flex > .business >p{
+    margin-left:150px;
+   }
+ 
+   .fourth-row >.flex > .single >p,.fourth-row >.flex > .studio >p,.fourth-row >.flex > .business >p{
+    font-size: x-large;
+    color: rgb(138, 137, 137);
+   }
+
+
+   .compare{
+    width: 45%;
+    height: 50px;
+    border-color:rgb(138, 137, 137);
+    background-color: white;
+    border-radius: 25px;
+   }
+   .compare-1{
+    
+    margin-left: 130px;
+   }
+
+   .compare-2{
+    margin-left:120px ;
+   }
+
+   .compare-3{
+    margin-left: 135px;
+   }
+   

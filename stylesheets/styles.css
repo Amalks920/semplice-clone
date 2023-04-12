@@ -1,0 +1,778 @@
+
+body{
+    background-color: rgb(242, 238, 238);
+   overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+   padding-left: 5px;
+    
+    
+}
+
+.line{
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  width: 3px;
+}
+
+.second{
+  background-color: white;
+  width: 96%;
+  margin-left: 30px;
+  
+}
+
+header{
+    position: static;
+    background-color: rgb(255,211,0);
+    width: 95vw;
+    padding-bottom: 70px;
+    margin-left: 1.9rem;
+    
+    padding-top: 300px;
+    
+}
+
+h1{
+    position: static;
+    font-family: 'Maison Neue', sans-serif;
+    font-size: 180px;
+    font-weight: 400;
+    margin-bottom: 100px;
+  
+    letter-spacing: -5px;
+    margin-left: 50px;
+    line-height: 150px;
+}
+
+.paragraph{
+    display: flex;
+    flex-direction: row;
+    font-size: 23.99px;
+    font-family: 'Abel', sans-serif;
+    line-height: 2.1rem;
+    
+    
+}
+
+.paragraph div{
+    margin-right: 30px;
+}
+
+.btn-1{
+   
+    display: flex;
+    width: 300px;
+    height: 60px;
+    border: none;
+    border-radius: 25px;
+    font-size: large;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-1 > div{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-left: -90px;
+    background-color: rgb(255,211,0);
+   
+}
+.white-button:hover{
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+
+
+article{
+    margin:0 50px;
+    
+}
+
+.nav-elements svg{
+  margin-right:270px ;
+}
+
+
+.worlds{
+  width: 79%;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    z-index: 3;
+    
+    height: 9%;
+    background-color: white;
+    left:3.7%;
+    right:3%;
+    top: 5%;
+    border-radius: 4px;
+    
+    
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-list li{
+    margin: 1rem;
+}
+
+.nav-elements{
+    width: 33%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.nav-elements button{
+    background-color: rgb(229,73,39);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    
+}
+
+
+.second-section{
+    
+   background-image: url("https://www.semplice.com/wp-content/uploads/2022/04/The-Editor-BG.jpg");
+   background-repeat: no-repeat;
+   border: 1px solid black;
+    height:70vh;
+    background-size: cover;
+    margin-left: 0;
+   
+}
+
+.second-section p{
+  width: 70%;
+  font-size: xx-large !important;
+  color: white !important;
+  
+}
+
+.second-section h3{
+  color: rgb(126,165,181);
+  font-size: 4rem;
+  margin-bottom: 0;
+  margin-left: 50px;
+}
+
+.background-image{
+  
+  
+  width: fit-content;
+}
+
+ .background-image img{
+   border-radius: 7px;
+   width: 80%;
+   height: 80%;
+   z-index: 1;
+  bottom: 250px;
+  left: 110px;
+  z-index: 1 ;
+  
+   position: relative;
+ }
+ .background-image svg{
+  position: relative;
+  z-index: 2;
+  bottom: 150px;
+  right: 650px;
+  width: 3600px;
+  border-radius:5%;
+ }
+
+ .w-button > .b-button{
+  width: 200px;
+  height: 40px;
+  color: black;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+ bottom: 420px;
+ left: 629px;
+ border-radius: 59px;
+ }
+
+.second-section p{
+    color: rgb(104,140,107);
+    
+    padding: 50px;
+    font-size: large;
+}
+
+.second-section div{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    
+   
+    
+
+}
+
+.second-section div p{
+    width: 40%;
+}
+.second-section div div{
+    
+    width: 60%;
+    padding-top: 50px;
+    justify-content: center;
+    
+}
+
+/********second-section*****/
+
+.second-section div div div{
+    height: 3px;
+    width: 100%;
+    margin-bottom: 66px;
+}
+
+/*******  third section  ******/
+.third-section{
+    margin-left: 2.5rem;
+    margin-right: 2.6rem;
+    width:95vw;
+    height: 100vh;
+    background-image: url("https://www.semplice.com/wp-content/uploads/2022/04/Edtior-Interface-Updated.jpg");
+    background-size: 95vw;
+}
+
+/*fourth section */
+
+.fourth-section{
+    
+    background-color: rgb(255,211,0); 
+     
+    
+}
+
+.fourth-section .background-image{
+    display: flex;
+    padding-top: 500px;
+    width: 100vw;
+    background-size: 80vw;
+    background-repeat: no-repeat;
+    background-position: 20% 30%; 
+    
+}
+
+
+
+.fourth-section article{
+    width: 70%;
+}
+
+hr{
+    background-color: rgb(159, 134, 101);
+}
+
+/*h2 */
+h2{
+  font-size: 6rem;
+  width: 60%;
+}
+
+.fourth-section  article  span{
+    margin-top: 100px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+    /*subsection to create the portfolio */
+
+    .portfolio-img{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        
+    }
+
+    .portfolio-wrapper {
+        margin: 100px 40px 0 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 50px;
+        grid-auto-rows: minmax(200px, auto);
+        
+        
+        
+      }
+      .one {
+        grid-column: 1 / 2;
+       
+        
+      }
+      .two {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+     
+        
+      }
+      .three {
+        grid-column: 3/4;
+
+        
+      }
+      .four {
+        grid-column: 4/5;
+     
+        
+      }
+      .five {
+        grid-column: 1/2;
+        grid-row: 2;
+     
+        
+      }
+      .six {
+        grid-column: 2/3;
+        grid-row: 2;
+      
+        
+      }
+
+      .seven {
+        grid-column: 3/4;
+        grid-row: 2;
+     
+       
+      }
+      .eight {
+        grid-column: 4/5;
+        grid-row: 2;
+        
+        
+      }
+
+      .one,.two,.three,.four,.five,.six,.seven,.eight{
+        padding:0 20px;
+       
+      }
+
+      .one:hover,.two:hover,.three:hover,.four:hover,.five:hover,.six:hover,.seven:hover,.eight:hover{
+        transform:scale(1.1,1.1);
+      }
+      
+
+      /* portfolio image name and description  */
+
+      .portfolio-name{
+        font-size: xx-large;
+        font-weight: 550;
+        margin: 0;
+      }
+
+      .portfolio-description{
+        font-size: x-large;
+        font-family: 'Cormorant Garamond', serif;
+        margin: 10px;
+      }
+
+
+      /*carosel section*/
+      .carosel{
+        height:80vh;
+        background-color: black;
+      }
+
+
+      /*sixth section*/
+
+      .sixth-section{
+        min-height: 125vh; 
+        background-color: white;
+        width: 100%;
+       
+      }
+
+
+      /*h3*/
+
+      h3{
+        font-size:3rem;
+        font-weight: 550;
+        width: 70%;
+        margin-left: 90px;
+      }
+
+
+      
+
+      
+
+      .sixth-section .sixth-section-flex{
+        display: flex;
+        justify-content: center;
+        margin: 0 90px;
+        width: 100%;
+        
+      }
+
+      .sixth-section-flex div:nth-of-type(1){
+        width: 50%;
+        text-align: center;
+        padding: 0 100px;
+        height: 70vh;
+        background-color: black;
+        
+      }
+
+      /* h4 */
+
+      h4{
+        font-size: 3rem;
+        
+      }
+
+      .sixth-section-flex div{
+        color: white;
+        
+      }
+
+      .sixth-section-flex div p{
+        
+        text-align: left !important;
+        font-size: x-large;
+        
+      }
+
+
+      /* second child of the div in sixth section */
+
+      .sixth-section-flex div:nth-of-type(2){
+        background-image: url("https://www.semplice.com/wp-content/uploads/2022/04/custom_animations_alternative_image.jpg");
+        width: 100%;
+        
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      
+      .sixth-section-2{
+        height: 100vh;
+    
+    }
+
+    /*sixth section's 2nd subsection */
+
+.subsection-2{
+  display: flex;
+    height: fit-content;
+    width: 100%;
+    
+}
+
+/*child elements of .subsection 2*/
+
+/*first child*/
+
+.subsection-2 div:nth-of-type(1){
+  background-color: rgb(255,211,0);
+  width: 43.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  margin-left: 5.6rem;
+  
+}
+
+.subsection-2 div:nth-of-type(1) p,.subsection-2 div:nth-of-type(2) p{
+  font-size: xx-large;
+  line-height: 1.2;
+  font-weight: 100;
+  text-align: center;
+  margin: 0 50px;
+}
+
+/*second child*/
+.subsection-2 div:nth-of-type(2){
+  background-color: whitesmoke;
+  width: 43.6%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+h4{
+    font-size: 900;
+    text-align: center;
+    width: 50%;
+    height: fit-content;
+}
+
+
+/*seventh section portfolio grid */
+
+/* .portfolio-grid{
+  height: 70vh;
+  background-color: rgb(115,115,115);
+} */
+
+
+/*common proporties for all sections */
+
+.second-section,.third-section,
+.fourth-section,.carosel,
+.sixth-section{
+    width: 95vw;
+    margin-left: 1.9rem;
+    margin-right: 2.6rem;
+   
+}
+
+
+/* buttons  */
+
+/*Learn More Button  */
+
+.learn-more{
+  background-color: transparent;
+  height: 40px;
+  width: 150px;
+  margin-top: 40px;
+  border-radius: 3px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.subsection-2 img{
+  width: 90%;
+  height: fit-content;
+ 
+}
+.subsection-2 div:nth-of-type(2) .learn-more{
+      margin-bottom: 40px;
+}
+
+
+
+/* custom animations */
+
+.custom-animation p{
+  color: white;
+  margin-left: 90px;
+  width: 60%;
+  font-size: x-large;
+  line-height: 1.8rem;
+}
+
+.custom-animation{
+  padding-top: 100px;
+  
+  width: 115%;
+}
+/* .portfolio-grid{
+  width: 83.6%;
+  display: flex;
+  justify-content:flex-end;
+  margin-left: 130px;
+  height: fit-content;
+  
+} */
+
+/* .portfolio-grid article{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-left: 1px solid black;
+ 
+padding:0 30px 30px 30px;
+  padding-top: 0;
+
+}
+
+.portfolio-grid article h4{
+  color: white;
+  width: 80%;
+  padding-bottom: 0;
+  margin-bottom: 30px;
+  margin-left: 0;
+  padding-bottom: 0;
+}
+
+
+.portfolio-grid article p{ */
+  /* padding-top: 0;
+  color: white;
+  font-size: x-large;
+  line-height: 1.4;
+  
+  margin-top: 30px;
+}
+
+
+.portfolio-grid article button{
+  border-color: white;
+  color: white;
+  margin-top: 30px;
+ 
+ 
+  
+}
+
+.portfolio-grid article p:nth-of-type(2){
+  font-size: large;
+  margin-top: 30px;
+  
+}  
+ */
+
+/*eighth section */
+
+
+.eighth-section{
+  min-height:100vh;
+  background-color: black;
+  width: 82.7vw;
+  margin-left: 130px;
+  margin-top: 75px;
+}
+
+/*eighth section first h1 element */
+
+.eighth-section h2{
+  color: white;
+  padding-top: 100px;
+  font-weight: 600;
+  padding-left: 40px;
+}
+
+.eighth-section p{
+  color: white;
+  font-weight: 100 !important;
+  
+  font-size: 3rem;
+  width: 70%;
+  margin-left: 50px;
+}
+
+
+/* second grid layout */
+
+.second-grid-wrapper {
+  margin: 100px 40px 0 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(300px,auto);
+  margin:0 20px;
+}
+.s-one {
+  grid-column: 1 / 2;
+   border: 1px solid white;
+  
+}
+.s-two {
+  grid-column: 2 / 3;
+  
+  border:1px solid white;
+  
+}
+.s-three {
+  grid-column: 3/4;
+  
+  border:1px solid white;
+  
+}
+.s-four {
+  grid-column: 4/5;
+  border:1px solid white;
+  
+}
+.s-five {
+  grid-column: 5/6;
+  
+  border:1px solid white;
+  
+}
+.s-six {
+  grid-column: 1/2;
+  grid-row: 2;
+  border:1px solid white;
+  
+}
+
+.s-seven {
+  grid-column: 2/3;
+  grid-row: 2;
+  border:1px solid white;
+ 
+}
+.s-eight {
+  grid-column: 3/4;
+  grid-row: 2;
+  border:1px solid white;
+  
+}
+
+.s-nine{
+  grid-column: 4/5;
+  grid-row:2;
+  border:1px solid white;
+}
+.s-ten{
+  grid-column:5/6;
+  grid-row:2;
+  border:1px solid white;
+}
+
+.second-grid-wrapper div{
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+}
+.second-grid-wrapper div p{
+  font-size: 1.6rem;
+  font-family: 'Abel', sans-serif;
+
+  margin-left: 0 !important;
+  margin-bottom:0 !important;
+  width: 100%;
+}
+
+
+.nineth-section{
+  min-height:100vh;
+  min-width: 100vw;
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

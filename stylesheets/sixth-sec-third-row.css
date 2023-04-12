@@ -1,0 +1,11 @@
+.third-row{
+    background-color: black;
+    color: white;
+    padding-left: 60px;
+}
+
+
+
+.third-row > p{
+    font-size: xx-large;
+}

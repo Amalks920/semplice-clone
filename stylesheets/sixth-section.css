@@ -1,0 +1,32 @@
+/*sixth-section*/
+
+.sixth-section{
+    display: grid;
+    grid-template-rows:260vh 200vh 150vh 50vh 100vh 60vh 95vh; 
+  }
+  
+  .first-row{
+    grid-row: 1/2;   
+  }
+  .second-row{
+    grid-row: 2/3; 
+  
+  }
+  
+  .third-row{
+    grid-row: 3/4; 
+  }
+  
+  .fourth-row{
+    grid-row: 4/5; 
+  }
+  .fifth-row{
+    grid-row:5/6;
+  }
+
+  .sixth-row{
+    grid-row: 6/7;
+  }
+  
+
+  

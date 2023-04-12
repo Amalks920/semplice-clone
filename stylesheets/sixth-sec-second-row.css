@@ -1,0 +1,124 @@
+.second-row{
+    display: grid;
+    grid-template-rows:repeat(1fr,auto) ;
+    grid-template-columns: 1fr,auto;
+    background-color: black;
+    
+   padding-bottom: 250px;
+    
+}
+
+.row1{
+   
+   color: black;
+  
+   
+}
+
+/* heading inside class row1 */
+
+.row1 h2{
+    width: 70%;
+    color: white;
+    margin-left: 5%;
+    margin-bottom: 0;
+}
+
+.row1 h2,.row1 p{
+    margin-left: 5%;
+    color: white;
+}
+
+.row1 p{
+    font-size: xx-large;
+    width: 60%;
+    line-height: 3rem;
+
+}
+
+.row2{
+    display: grid;
+    grid-template-columns:repeat(autofill,minmax(1fr,auto));
+   
+    
+   gap: 10px;
+}
+
+/*  columns inside row2 */
+
+
+
+.row2 > .row-1{
+    grid-column: 1/2;
+    grid-row: 1;
+   
+    padding:20px;
+}
+.row2 > .row-2{
+    grid-column: 2/3;
+   
+    padding:20px;
+}
+
+.row2 > .row-3{
+    grid-column: 3/4;
+   
+    padding:20px;
+}
+
+.row2 > .row-4{
+    grid-column: 4/5;
+   
+    padding:20px;
+}
+
+.row2 > .row-5{
+    grid-column: 5/6;
+
+    padding:20px;
+}
+
+.row2 > .row-6{
+    grid-column: 1/2;
+    grid-row: 2;
+    padding:20px;
+}
+
+.row2 > .row-7{
+    grid-column: 2/3;
+    padding:20px;
+
+}
+
+.row2 > .row-8{
+    grid-column: 3/4;
+    padding:20px;
+
+}
+
+.row2 > .row-9{
+    grid-column: 4/5;
+    padding:20px;
+}
+
+.row2 > .row-10{
+   grid-column: 5/6;
+   padding:20px;
+    
+}
+
+.row2 .sub-row > p{
+    color: white;
+    font-size: x-large;
+}
+
+.row2 .sub-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.row2 > .row-2,.row2 > .row-4,.row2 > .row-6,.row2 >.row-8,.row2 > .row-10{
+    background-color: rgb(19,19,19);
+}
